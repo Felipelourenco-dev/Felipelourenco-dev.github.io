@@ -1,0 +1,49 @@
+@media (max-width: 780px ) {
+
+.cabecalho {
+    justify-content: space-between;
+}
+
+.cabecalho__menu {
+    display: none;
+}
+
+.cabecalho__logo img {
+
+    width: 80px;
+    margin-left: 10px;
+}
+
+.cabecalho__icones img {
+
+    width: 30px;
+}
+
+.destaque {
+    flex-direction: column;
+}
+
+.destaque__produto{
+
+    width: 300px;
+}
+
+.seta__voltar,.seta__proximo {
+
+    width: 75px;
+}
+
+.destaque__produto-descricao h1 {
+
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.rodape {
+
+    flex-direction: column;
+    height: 320px;
+}
+
+}
