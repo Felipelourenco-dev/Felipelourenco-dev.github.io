@@ -26,6 +26,13 @@
 .destaque__produto{
 
     width: 250px;
+    height: auto;
+}
+
+.destaque__produto img {
+
+    width: 250px;
+    height: 200px;
 }
 
 .seta__voltar,.seta__proximo {
