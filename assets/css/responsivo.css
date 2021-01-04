@@ -1,12 +1,19 @@
 @media (max-width: 780px ) {
 
-.cabecalho {
-    justify-content: space-between;
+/* HEADER */
+
+
+
+.cabecalho ul {
+
+    padding-right: 80px;
+    padding-top: 30px;
 }
 
-.cabecalho__menu {
-    display: none;
+.cabecalho li {
+    margin-right: 0;
 }
+
 
 .cabecalho__logo img {
 
@@ -14,10 +21,58 @@
     margin-left: 10px;
 }
 
+.cabecalho__icones {
+
+    display: flex;
+}
+
 .cabecalho__icones img {
 
     width: 30px;
 }
+
+.cabecalho__responsivo {
+
+    position: fixed;
+    background: white;
+
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 75px;
+    
+    text-align: center;
+    line-height: 2.75;
+    z-index: 1000;
+
+    transform: translateX(100%);
+    transition: transform 1000ms ease;
+}
+
+.abre__menu {
+
+    transform: translateX(0);
+}
+
+ .menu__abrir {
+     display: flex;
+ }   
+
+
+.fechar__menu {
+
+    width: 20px;
+    margin-left: 10px;
+    display: block;
+}
+
+.cabecalho__responsivo ul {
+
+    flex-direction: column;
+}
+
+
+/* DESTAQUE */
 
 .destaque {
     flex-direction: column;
@@ -38,6 +93,14 @@
 .seta__voltar,.seta__proximo {
 
     width: 75px;
+}
+
+.seta__voltar:active {
+    transform: scale(0.80);
+}
+
+.seta__proximo:active {
+    transform: scale(0.80);
 }
 
 .destaque__produto-descricao h1 {

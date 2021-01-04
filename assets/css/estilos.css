@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fffff;
+    background-color: #fffafa;
     
 }
 
@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: space-around;
 
+    
     margin-top: 15px;
 }
 
@@ -36,6 +37,11 @@ body {
 
     margin-right: 15px;
     cursor: pointer;
+}
+
+.menu__abrir,
+.fechar__menu {
+    display: none;
 }
 
 /* DESTAQUE PRINCIPAL */
@@ -163,6 +169,14 @@ body {
 
     cursor: pointer;
     
+}
+
+.seta__voltar:active {
+    transform: scale(0.80);
+}
+
+.seta__proximo:active {
+    transform: scale(0.80);
 }
 
 /* FOOTER */
