@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./assets/css/resete.css">
     <link rel="stylesheet" href="./assets/css/estilos.css">
     <link rel="stylesheet" href="./assets/css/responsivo.css">
@@ -21,8 +21,12 @@
             <img src="./assets/imagens/logo.svg" alt="Logotipo do site SHOP">
         </div>
 
-        <nav class="cabecalho__menu">
+        
+
+        <nav class="cabecalho__menu cabecalho__responsivo">
+           
         <ul>
+            <img class="fechar__menu" src="./assets/imagens/close.svg" alt="fechar menu">
             <li>Home</li>
             <li>About</li>
             <li>Products</li>
@@ -33,7 +37,8 @@
         <div class="cabecalho__icones">
            <img src="./assets/imagens/icons8-pesquisar.svg" alt="Pesquisar"> 
            <img src="./assets/imagens/icons8-carrinho-de-compras-24.png" alt="Carrinho de Compras"> 
-           <img src="./assets/imagens/icons8-cardápio.svg" alt=""> 
+           <img class="menu__abrir" src="./assets/imagens/icons8-cardápio.svg" alt="Menu">
+           
         </div>
     </header>
 
@@ -112,8 +117,9 @@
 </body>
 
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript" src="./carrossel.js"></script>
+<script type="text/javascript" src="./menu.js"></script>
 </html>
 
     
